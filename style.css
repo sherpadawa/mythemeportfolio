@@ -44,8 +44,7 @@ p{
 button, html input[type=button], input[type=reset], input[type=submit]{
 	background-color: #9E9E9E;
 }
-.btn-default:hover{
-	background-color: #E040FB;
+
 }
 a:focus{
 	background-color: #FFCDD2;
@@ -64,6 +63,29 @@ a:focus{
 .jumbotron p{
 	color:#727272;
 }
+
+#navbar-collapse{
+	padding-top: 5px;
+	
+}
+body{
+	padding-top: 20px
+}
+.navbar-default .navbar-brand{
+	padding-top: 20px;
+}
+.col-sm-12{
+	padding-top:32px;
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color:  #D32F2F;
+}
+.dropdown-menu>li>a{
+	color:#FFFFFF;
+}
+
+
+
 
 
 

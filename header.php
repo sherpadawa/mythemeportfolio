@@ -48,9 +48,9 @@
 	</div><!-- .container -->
 </header><!-- #masthead -->
 
-<nav class="site-navigation">
+<nav class="site-navigation navbar-fixed-top">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">
@@ -90,7 +90,7 @@
 
 <div class="main-content">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
-			<div id="content" class="main-content-inner col-sm-12 col-md-8">
+			<div id="content" class="main-content-inner col-sm-12 col-md-12">
 

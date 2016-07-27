@@ -9,5 +9,8 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_filter('wp_nav_menu_items', 'add_search_form', 10, 2);
+
+
 ?>
 

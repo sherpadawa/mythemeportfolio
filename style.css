@@ -17,6 +17,7 @@ dark primary=#303F9F
 primary=#3F51B5
 acent=#536DFE
 */
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Kalam);
 header{
 	background-color: #F44336;
 }
@@ -32,3 +33,14 @@ a{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: #F44336;
 }
+
+h1{
+	font-family:  'Droid Serif', serif;
+}
+p{
+	font-family: 'Kalam', cursive;
+
+}
+/*.jumbotron .h1, .jumbotron h1{
+	font-family:  'Droid Serif', serif;
+}*/

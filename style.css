@@ -41,6 +41,12 @@ p{
 	font-family: 'Kalam', cursive;
 
 }
-/*.jumbotron .h1, .jumbotron h1{
-	font-family:  'Droid Serif', serif;
-}*/
+button, html input[type=button], input[type=reset], input[type=submit]{
+	background-color: #E040FB;
+}
+.btn-default:hover{
+	background-color: #E040FB;
+}
+a:focus{
+	background-color: #FFCDD2;
+}

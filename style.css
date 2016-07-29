@@ -1,5 +1,5 @@
  /*
- Theme Name:   Twenty Fifteen Child
+ Theme Name:   SherpaTheme
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Twenty Fifteen Child Theme
  Author:       John Doe
@@ -20,6 +20,7 @@ acent=#536DFE
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif|Kalam);
 body{
 	background-color: #F44336;
+	padding-top: 40px
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	background-color: #D32F2F;
@@ -68,9 +69,7 @@ a:focus{
 	padding-top: 5px;
 	
 }
-body{
-	padding-top: 20px
-}
+
 .navbar-default .navbar-brand{
 	padding-top: 20px;
 }
@@ -84,7 +83,9 @@ body{
 	color:#FFFFFF;
 }
 
-
+.container .jumbotron, .container-fluid .jumbotron{
+	background-color:#D32F2F ;
+}
 
 
 

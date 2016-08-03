@@ -20,7 +20,7 @@ acent=#536DFE
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif|Kalam);
 body{
 	background-color: #F44336;
-	padding-top: 40px
+	padding-top: 40px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	background-color: #D32F2F;

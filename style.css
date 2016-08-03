@@ -1,0 +1,97 @@
+ /*
+ Theme Name:   SherpaTheme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+ 	
+/* blue
+dark primary=#303F9F
+primary=#3F51B5
+acent=#536DFE
+*/
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Kalam);
+body{
+	background-color: #F44336;
+	padding-top: 40px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #D32F2F;
+}
+a{
+	color:white;
+}
+.lead{
+	color:white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #F44336;
+}
+
+h1{
+	font-family:  'Droid Serif', serif;
+}
+ p{
+	font-family: 'Kalam';
+	color:white;
+
+}
+button, html input[type=button], input[type=reset], input[type=submit]{
+	background-color: #9E9E9E;
+}
+
+}
+a:focus{
+	background-color: #FFCDD2;
+}
+.lead{
+	color:#FFCDD2;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:#FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+	color:#FFFFFF;
+}
+
+
+#navbar-collapse{
+	padding-top: 5px;
+	
+}
+
+.navbar-default .navbar-brand{
+	padding-top: 20px;
+}
+.col-sm-12{
+	padding-top:32px;
+}
+.navbar-nav>li>.dropdown-menu{
+	background-color:  #D32F2F;
+}
+.dropdown-menu>li>a{
+	color:#FFFFFF;
+}
+
+.container .jumbotron, .container-fluid .jumbotron{
+	background-color:#D32F2F ;
+}
+
+.jumbotron .h1, .jumbotron h1{
+	color:white;
+}
+
+
+ .jumbotron p{
+ 	color:#FFCDD2;
+ }
+
